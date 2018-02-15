@@ -2,11 +2,41 @@ h1 {
   color: rgb(111,159,248);
   background-color: black;
   text-align: center;
+  font-family: "Roboto Slab";
+  font-size: 70px;
+  margin: 0;
+  height: 100px;
+}
+h2{
+  color: black;
+  font-family: "Roboto Slab";
   margin: 0;
 }
 
 h3 {
-  color: rgb(173,158,213)
+  color: rgb(111,159,248);
+  font-family: "Roboto Slab";
+  margin: 0;
+}
+
+h4{
+  color: black;
+  font-family: "Roboto Slab";
+  margin: 0;
+}
+
+body {
+  font-family: 'Roboto Slab', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-style: italic;
+}
+
+a:hover {
+  color: rgb(111,159,248);
 }
 
 .column {
@@ -17,25 +47,26 @@ h3 {
   background-color: rgb(111,159,248);
   width: 10%;
   height: 100vh;
-  margin: 10px;
+  margin: 1px;
   padding: 0;
 }
 
 .middle {
-  width: 35%;
-  margin: 20px;
+  width: 38%;
+  margin: 10px;
   padding: 0;
 }
 .right {
-  width: 35%;
-  margin: 20px;
+  width: 38%;
+  margin: 10px;
   padding: 0;
 }
 
 .rightright {
+  float: right;
   background-color: rgb(111,159,248);
   width: 10%;
   height: 100vh;
-  margin: 10px;
+  margin: 1px;
   padding: 0;
 }
