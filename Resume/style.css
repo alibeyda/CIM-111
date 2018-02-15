@@ -7,10 +7,12 @@ h1 {
   margin: 0;
   height: 100px;
 }
+
 h2{
   color: black;
   font-family: "Roboto Slab";
-  margin: 0;
+  text-decoration: underline;
+  margin: 5px;
 }
 
 h3 {
@@ -19,7 +21,7 @@ h3 {
   margin: 0;
 }
 
-h4{
+h4 {
   color: black;
   font-family: "Roboto Slab";
   margin: 0;
@@ -38,6 +40,11 @@ a {
 a:hover {
   color: rgb(111,159,248);
 }
+
+#contact {
+  color: black;
+}
+
 
 .column {
     float: left;
