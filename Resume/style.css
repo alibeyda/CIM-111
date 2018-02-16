@@ -45,6 +45,9 @@ a:hover {
   color: rgb(111,159,248);
 }
 
+#number {
+  color: rgb(111,159,248);
+}
 
 .column {
     float: left;
