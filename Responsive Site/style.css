@@ -1,43 +1,50 @@
-.content {
-  grid-area: content;
-}
-
-.header {
-  grid-area: header;
-  height: 75px;
-}
-
-.wrapper {
+.container {
+  width: 100%;
+  margin: 0 auto;
   display: grid;
-  grid-gap: 10px;
-  grid-template-columns: 120px 120px;
-  grid-template-areas: "....... header  header" "sidebar content content";
+  grid-template-areas:   "header"
+                          "main"
+                          "footer";
+  grid-template-rows:   1fr 1fr 1fr;
+  grid-template-columns:  960px;
+
 }
 
+body{
+  font-family: sans-serif;
+}
 
-.box{
+header {
+  grid-area: header;
   background-color: pink;
-}
-
-ul {
-  list-style-type: none;
-  margin:0;
-  padding:0;
-  background color: blue;
-}
-
-li{
-  float: left;
-}
-
-li a{
-  display: block;
-  color: white;
+  height: 100%;
   text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
 }
 
-li a:hover{
-  background-color: black
+nav {
+  grid-area: nav;
+}
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+nav ul li a:hover{
+  color: purple;
+}
+
+a{
+  text-decoration: none;
+  color: #666;
+}
+
+a:hover{
+  color: pink;
 }
