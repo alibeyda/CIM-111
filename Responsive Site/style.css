@@ -16,9 +16,9 @@ body{
 
 header {
   grid-area: header;
-  background-color: pink;
-  height: 100%;
-  text-align: center;
+  background-color: RGB(89,172,205);
+  height: 70px;
+  /* text-align: center; */
 }
 
 nav {
@@ -32,7 +32,9 @@ nav ul li{
 
 nav ul li a{
   text-decoration: none;
+  font-family:"Lobster";
   color: white;
+  font-size: 18pt;
   padding: 10px;
 }
 
@@ -45,6 +47,12 @@ a{
   color: #666;
 }
 
-a:hover{
-  color: pink;
+/* a:hover{
+  color: blue;
+} */
+
+h1{
+  Text-align: center;
+  margin: 3px;
+  font-family: 'Lobster', cursive;
 }
