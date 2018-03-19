@@ -28,6 +28,9 @@ header {
 nav {
   grid-area: nav;
   margin: 0;
+  background-color: RGB(231,150,199);
+  top: 0;
+  width: 100%;
 }
 
 nav ul {
@@ -41,7 +44,7 @@ nav ul li{
 
 nav ul li a{
   text-decoration: none;
-  font-family:"Lobster";
+  font-family:"Limelight";
   color: white;
   font-size: 18pt;
   padding: 10px;
@@ -61,18 +64,19 @@ a{
 h1{
   Text-align: center;
   margin: 3px;
-  font-family: 'Lobster', cursive;
+  font-family: 'Limelight', cursive;
 }
 
 img{
   width: 100%;
+  height: 345px;
   margin: 0;
 }
 
 .wrapper {
-  grid-template-columns: repeat(3, 33.3333%);
+  grid-template-columns: repeat(4, 24%);
   display: grid;
-  grid-gap: 0;
+  grid-gap: 10px;
   width: 100%;
   height: 100%;
   justify-content: center;
@@ -80,13 +84,51 @@ img{
 }
 
 .items {
-  background-color: rgb(251, 244, 124);
+  background-color: rgb(224, 107, 176);
   width: 100%;
   padding: 3px;
   margin: 0;
-  height: 375px;
+  height: 350px;
+  text-decoration: none;
 }
 
 .items:hover {
-  background-color: rgb(235, 111, 115)
+  background-color: rgb(251, 244, 124)
+}
+
+#tumbler{
+  max-height: 300px;
+  max-width: 300px;
+  justify-content: center;
+  margin-left: 25px;
+  margin-right:50px;
+}
+
+#insta{
+  height: 300px;
+  width: 300px;
+  justify-content: center;
+  margin-left: 30px;
+  margin-right:50px;
+}
+
+#twitter{
+  height: 280px;
+  width: 280px;
+  justify-content: center;
+  margin-left: 30px;
+  margin-right:50px;
+}
+
+#fb{
+  height: 300px;
+  width: 300px;
+  justify-content: center;
+  margin-left: 30px;
+  margin-right:50px;
+}
+
+footer{
+  color: white;
+  margin:2px;
 }
