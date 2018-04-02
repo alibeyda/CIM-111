@@ -14,6 +14,10 @@ $(document).ready(function(){
    });
    });
 
+   $(".screen").hover(function(){
+        $(".screen").fadeOut(1000);
+  });
+
  $("#clickhere").click(function(){
     $("#replace").html("<p>For more information check out <a href='https://postmates.com'>postmates.com</a>");
   });
