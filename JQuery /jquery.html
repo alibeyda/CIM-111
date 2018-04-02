@@ -10,11 +10,13 @@
   <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
   <!-- <script src="js/jquery-3.2.1.min.js"></script> -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
   <script src="script.js"></script>
 </head>
 
 <header>
-  <h1>How to Order Food From Your Smartphone</h1>
+  <h1 id="title">How to Order Food From Your Smartphone</h1>
 </header>
 
 <main>
@@ -23,8 +25,8 @@
 
       <div class="steps">
         <h2>Step 1</h2>
-        <div id="hide"><button>hide</button></div>
-        <div id="show"><button>Show</button></div>
+        <button id="hide">Hide</button>
+        <button id="show">Show</button>
         <p>Download Postmates from the APP store</p>
         <img src="images/post.png" class="imageone" alt="app logo">
       </div>
@@ -37,8 +39,10 @@
 
       <div class="steps">
         <h2>Step 3</h2>
+        <button id="hide2">Hide</button>
+        <button id="show2">Show</button>
         <p>Chose a resturant and read through the menu</p>
-        <img src="images/menu.jpg" alt="step 3">
+        <img src="images/menu.jpg" class="imagetwo" alt="step 3">
       </div>
 
       <div class="steps">
@@ -48,16 +52,22 @@
       </div>
 
       <div class="steps">
-        <h2>Step 5</h2>
-        <p>If this is your first time using the app you will have to enter your credit card information, all other times it will be saved</p>
+        <h2 class="change">Step 5</h2>
+        <p id=only>If this is your first time using the app you will have to enter your credit card information, all other times it will be saved</p>
         <img src="images/card.png" alt="step 5">
       </div>
 
       <div class="steps">
         <h2>Step 6</h2>
-        <p>Click "Get it Now" "and your order will show up at your current location within an hour<p>
+        <button id="clickhere">Click Here For More Info</button>
+        <!-- <div class="moreinfo"> -->
+        <p class="moreinfo">For more information check out <a href="https://postmates.com"></a></p>
+        <!-- </div> -->
+        <p id="replace">Click "Get it Now" and your order will show up at your current location within an hour</p>
         <img src="images/deliver3.png" alt="step 6">
       </div>
 
   </div>
 </main>
+</body>
+</html>
